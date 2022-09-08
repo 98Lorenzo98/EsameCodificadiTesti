@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- Prologo -->
+
+<!-- Body -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> <!-- contiene una descrizione bibliografica completa di un file elettronico-->
+            <!-- Contiene descrizione del file  -->
+            <titleStmt>
+                <title xml:lang="fr"  type="main">Trois premières conférences à l'Université</title>
+                <title xml:lang="it"  type="alt">Le prime tre conferenze all'Università</title>
+                <author ref="FDS">Ferdinand De Saussure</author>
+                <respStmt> <!-- dichiarazione di responsabilità per il contenuto di un testo-->
+                    <!-- Contiene responsabili del contenuto -->
+                    <resp>Traduzione a cura di:</resp>
+                    <name ref="EF">Emanuele Fadda</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <!-- Gruppo di informazioni relative a un'edizione di un testo -->
+                <edition>
+                    Edizione Digitale -
+                    <date when="06-2022">Giugno 2022</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto coordinato da:</resp>
+                    <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+                <respStmt>
+                  <!-- fornisce il nome del principale ricercatore responsabile della creazione di un testo elettronico-->
+                    <resp>Codifica a cura di:</resp>
+                    <name xml:id="LL">Lorenzo Lattanzi</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa, PI</pubPlace>
+                <availability status="free">
+                    <p>Opera ad accesso libero</p>
+                </availability>
+                <date when="2022"> 2022 </date>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <!-- Individua la fonte primaria -->
+                <msDesc>
+                    <!-- Specifica per il manoscritto -->
+                    <msIdentifier>
+                        <placeName>
+                            <country key="CH" type="state">Svizzera</country>
+                            <settlement>Ginevra</settlement>
+                        </placeName>
+                        <repository  ref="https://archives.bge-geneve.ch/ark:/17786/vta01d046d929f231ba" role="library">Biblioteca di <placeName ref="#ginevra">Ginevra</placeName></repository>
+                        <idno>BGE Ms. fr. 3951/1.1-3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title xml:lang="fr">
+                                Trois premières conférences à l'Université (cours d'ouverture,
+                                <date when="11-1981">Novembre 1891</date>)
+                            </title>
+                              <byline>di<docAuthor>Ferdinand De Saussure,</docAuthor>linguista e semiologo svizzero.</byline>
+                            <!--<author xml:lang="fr">
+                                <persName ref="FDS">Ferdinand De Saussure</persName>
+                            </author>-->
+                             <textLang mainLang="fr">Scritto in francese.</textLang>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <support>Fogli di <material>carta</material></support>
+                                <extent> Sono 67 pagine ed un foglietto, precisamente sono 30 + 15 + 22 pagine + 1 foglietto. </extent>
+                                <condition>Le pagine sono discretamente in buone condizioni e non si evidenziano particolari danni, il manoscritto risulta di conseguenza abbastanza leggibile.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" ruledLines="20 30">
+                                    <p>Le pagine hanno in media tra 20 e 30 righe, inoltre vi sono molte note a margine e al di sopra del testo, vi sono diverse cancellature. </p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <p>Il testo è stato scritto interamente dalla mano dell'autore. </p>
+                        </handDesc>
+                        <typeDesc>
+                            <p>Scritto in caratteri corsivi che a volte risultano di difficile da comprendere.
+                                Vi sono molte cancellature, sottolineature e aggiunte. </p>
+                        </typeDesc>
+                    </physDesc>
+
+                    <history>
+                     <summary>Questo manoscritto si compone di 3 parti, ognuna corrispondente a una prolusione ginevrina.</summary>
+                        <origin notAfter="11-1891">
+                            <p>Gli appunti vennero scritti da <persName>Ferdinand De Saussure</persName>
+                                 per le prime conferenze all'Università di
+                                <placeName ref="#ginevra">Ginevra</placeName>, in parte utilizzati per le prime lezioni
+                                del corso di
+                                <foreign xml:lang="fr">Phonétique du grec et du latin</foreign>. 
+                                Questi appunti erano con buona probabilità destinati alla pubblicazione di una brochure.
+                            </p>
+                        </origin>
+                        <acquisition>
+                            <p>
+                                Il testo originale venne in seguito acquisito dalla Biblioteca di <placeName ref="#ginevra">Ginevra</placeName>.
+                            </p>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+            <textDesc>
+                <channel mode="ws" /><!--canale di comunicazione del contenuto-->
+                <constitution type="single" /><!--descrive la composizione interna di un testo-->
+                <derivation type="original" />
+                <domain type="education" /><!--descrive il contesto sociale più importante in cui il testo è stato realizzato o al quale è destinato-->
+                <factuality type="fact" /><!--descrive la misura in cui il testo può essere considerato fantasioso o non fantasioso-->
+                <interaction type="partial" active="singular" passive="group" /><!--descrive la natura di qualsiasi interazione tra coloro che producono e sperimentano il testo-->
+                <preparedness type="draft" /><!-- traduzione di draft = bozza, progetto-->
+                <purpose type="inform" degree="high" /><!--caratterizza un unico scopo o funzione comunicativa del testo-->
+            </textDesc>
+            <settingDesc>
+                <setting>
+                    <name>
+                        Testi registrati nella Biblioteca di
+                        <placeName>Ginevra</placeName>,
+                        <country>Svizzera</country>.
+                    </name>
+                    <time>
+                        <date when="11-1891">Novembre 1891</date>
+                    </time>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+
+     <facsimile>
+        <!-- Prolusioni_2  Pagina 10 -->
+        <surface n="1" xml:id="Pro2_10">
+            <graphic url='img/Pro2_10.jpg' width='4032px' height='4914px' />
+
+            <zone ulx="239" uly="298" lrx="3747" lry="4666" xml:id="P10Intera" />
+            <zone ulx="681" uly="370" lrx="3721" lry="578" xml:id="P10_R1" />
+            <zone ulx="777" uly="582" lrx="3660" lry="691" xml:id="P10_R2" />
+            <zone ulx="790" uly="702" lrx="3596" lry="795" xml:id="P10_R3" />
+            <zone ulx="268" uly="646" lrx="700" lry="1267" xml:id="P10_N1" /><!-- NOTA MARGINE -->
+            <zone ulx="803" uly="837" lrx="3612" lry="933" xml:id="P10_R4" />
+            <zone ulx="790" uly="981" lrx="3545" lry="1070" xml:id="P10_R5" />
+            <zone ulx="819" uly="1123" lrx="3507" lry="1177" xml:id="P10_R6" />
+            <zone ulx="819" uly="1270" lrx="3606" lry="1331" xml:id="P10_R7" />
+            <zone ulx="799" uly="1395" lrx="3644" lry="1475" xml:id="P10_R8" />
+            <zone ulx="796" uly="1528" lrx="3683" lry="1614" xml:id="P10_R9" />
+            <zone ulx="325" uly="1564" lrx="3485" lry="1698" xml:id="P10_R10"/>
+            <zone ulx="1020" uly="1777" lrx="3538" lry="1838" xml:id="P10_R11" />
+            <zone ulx="283" uly="1875" lrx="3659" lry="2017" xml:id="P10_R12"/>
+            <zone ulx="788" uly="2078" lrx="3659" lry="2132" xml:id="P10_R13" />
+            <zone ulx="350" uly="2186" lrx="3625" lry="2269" xml:id="P10_R14" />
+            <zone ulx="812" uly="2278" lrx="3714" lry="2387" xml:id="P10_R15" />
+            <zone ulx="808" uly="2450" lrx="3714" lry="2570" xml:id="P10_R16" />
+            <zone ulx="863" uly="2567" lrx="3736" lry="2730"  xml:id="P10_R17" />
+            <zone ulx="852" uly="2701" lrx="3714" lry="2861"  xml:id="P10_R18" />
+            <zone ulx="897" uly="2885" lrx="3683" lry="2948" xml:id="P10_R19" />
+            <zone ulx="900" uly="3019" lrx="3710" lry="3119" xml:id="P10_R20" />
+            <zone ulx="915" uly="3164" lrx="3659" lry="3267" xml:id="P10_R21" />
+            <zone ulx="933" uly="3324" lrx="1374" lry="3427" xml:id="P10_R22" />
+            <zone ulx="1259" uly="3454" lrx="3707" lry="3559" xml:id="P10_R23" />
+            <zone ulx="470" uly="3558" lrx="3601" lry="3689" xml:id="P10_R24" />
+            <zone ulx="906" uly="3763" lrx="3707" lry="3817" xml:id="P10_R25" />
+            <zone ulx="1011" uly="3890" lrx="3677" lry="3935" xml:id="P10_R26" />
+            <zone ulx="1035" uly="4017" lrx="3722" lry="4065" xml:id="P10_R27" />
+            <zone ulx="1014" uly="4140" lrx="3689" lry="4180" xml:id="P10_R28" />
+            <zone ulx="1035" uly="4279" lrx="3656" lry="4315" xml:id="P10_R29" />
+            <zone ulx="994" uly="4370" lrx="3623" lry="4450" xml:id="P10_R30" />
+            <zone ulx="1077" uly="4472" lrx="3616" lry="4541" xml:id="P10_R31" />
+        </surface>
+        
+        <!-- Retro -->
+        <surface n="2" xml:id="Pro2_10R">
+            <graphic url='img/Pro2_10R.jpg' width='2624px' height='3160px' />
+            <zone ulx="266" uly="210" lrx="2385" lry="2879" xml:id="P10Retro" />
+        </surface>
+        
+        <!-- Prolusioni_2 Pagina 11 -->
+        <surface n="3" xml:id="Pro2_11">
+            <graphic url='img/Pro2_11.jpg' width='4032px' height='4896px' />
+            <zone ulx="251" uly="264" lrx="3719" lry="4638" xml:id="P11Intera" />
+            <zone ulx="749" uly="367" lrx="3725" lry="514" xml:id="P11_R1" />
+            <zone ulx="755" uly="521" lrx="3710" lry="624" xml:id="P11_R2" />
+            <zone ulx="764" uly="648" lrx="3604" lry="732" xml:id="P11_R3" />
+            <zone ulx="770" uly="775" lrx="3327" lry="850" xml:id="P11_R4" />
+            <zone ulx="815" uly="904" lrx="3704" lry="1001" xml:id="P11_R5" />
+            <zone ulx="794" uly="1031" lrx="3725" lry="1131" xml:id="P11_R6" />
+            <zone ulx="791" uly="1152" lrx="3668" lry="1245" xml:id="P11_R7" />
+            <zone ulx="806" uly="1294" lrx="3625" lry="1348" xml:id="P11_R8" />
+            <zone ulx="800" uly="1408" lrx="3637" lry="1493" xml:id="P11_R9" />
+            <zone ulx="788" uly="1540" lrx="3731" lry="1649" xml:id="P11_R10" />
+            <zone ulx="839" uly="1685" lrx="3731" lry="1797" xml:id="P11_R11" />
+            <zone ulx="1005" uly="1847" lrx="3713" lry="2013" xml:id="P11_R12" />
+            <zone ulx="842" uly="2031" lrx="3616" lry="2143" xml:id="P11_R13" />
+            <zone ulx="866" uly="2179" lrx="2077" lry="2303" xml:id="P11_R14" />
+            <zone ulx="1129" uly="2345" lrx="3508" lry="2499" xml:id="P11_R15" />
+            <zone ulx="891" uly="2471" lrx="3263" lry="2665" xml:id="P11_R16" />
+            <zone ulx="1093" uly="2695" lrx="1820" lry="2855" xml:id="P11_R17" />
+            <zone ulx="1123" uly="2891" lrx="3695" lry="3066" xml:id="P11_R18" />
+            <zone ulx="930" uly="3090" lrx="1358" lry="3220" xml:id="P11_R19" />
+            <zone ulx="1023" uly="3223" lrx="2391" lry="3359" xml:id="P11_R20" />
+            <zone ulx="1096" uly="3559" lrx="3574" lry="3695" xml:id="P11_R21" />
+            <zone ulx="863" uly="3713" lrx="3487" lry="3852" xml:id="P11_R22" />
+            <zone ulx="860" uly="3870" lrx="3471" lry="3976" xml:id="P11_R23" />
+            <zone ulx="975" uly="4021" lrx="3559" lry="4121" xml:id="P11_R24" />
+            <zone ulx="978" uly="4169" lrx="3583" lry="4263" xml:id="P11_R25" />
+            <zone ulx="981" uly="4290" lrx="3185" lry="4389" xml:id="P11_R26" />
+            <zone ulx="1002" uly="4407" lrx="3496" lry="4628" xml:id="P11_R27" />
+        </surface>    
+    </facsimile>
+    
+    <text xml:lang="fr" xml:id="Pro2_10-11-fr" subtype="manuscript">
+        <body>
+            <div type="pagina" n="10">
+                <pb n="10" facs="#Pro2_10" />
+                <!-- Page beginnng -->
+                <ab type="paragrafo" n="1" xml:id="Pro2_1O_Par1">
+                    <lb xml:id="Pro2_10_L1" n="1" facs="#P10_R1" />
+                    <!-- Line beginning -->
+                    <choice><orig>d</orig><reg resp="#EF">dans</reg></choice> des <term ref="#formes">formes</term> existantes fournies par la <term ref="#memoire">mémoire</term>;
+                </ab>
+
+                <ab type="paragrafo" n="2" xml:id="Pro2_1O_Par2">
+                    <mentioned xml:lang="fr" rend="underline">punirai</mentioned><mentioned xml:lang="fr" rend="underline">punir</mentioned>,
+                    <lb xml:id="Pro2_10_L2" n="2" facs="#P10_R2" />
+                    ou bien si l’on veut le <term ref="#suffixe">suffixe</term>
+                    <mentioned xml:lang="fr" rend="underline">–ir</mentioned>,
+                    le <term ref="#suffixe">suffixe</term>
+                    <mentioned xml:lang="fr" rend="underline">–irai</mentioned>, et leur  
+                    <lb xml:id="Pro2_10_L3" n="3" facs="#P10_R3" />
+                    <term ref="#RapdeSignification">rapport de <abbr>signific<am>.</am></abbr><expan><ex>ation</ex></expan></term>
+                </ab>
+
+                <!-- NOTA A MARGINE -->
+                <ab type="paragrafo" n="3" xml:id="Pro2_1O_N1">   
+                    <add resp="#FDS" place="margin">                 
+                        Sans la 
+                        présence 
+                        de ces 
+                        <term ref="#elem">éléments</term>, 
+                        <mentioned xml:lang="fr">venirai</mentioned> 
+                        est 
+                        <abbr>simpl</abbr><expan><ex>ement</ex></expan>  <abbr>imp<am>.</am></abbr><expan><ex>ossible</ex></expan>
+                    </add>
+                </ab>
+
+                <ab type="paragrafo" n="4" xml:id="Pro2_1O_Par4">
+                    <gap quantity="1" unit="chars" reason="illegible"/>
+                    Il n’y aura donc jamais de 
+                    <lb xml:id="Pro2_10_L4" n="4" facs="#P10_R4" />
+                    <term ref="#creation">création <emph rend="underline">ex nihilo</emph>
+                    </term>, mais chaque <term ref="#inno">innovation</term> ne sera
+                    <lb xml:id="Pro2_10_L5" n="5" facs="#P10_R5" />
+                    qu'<choice><orig>1</orig><reg resp="#EF">une</reg></choice> <abbr>applic<am>.</am></abbr><expan><ex>ation</ex></expan> nouvelle d'<term ref="#elem">éléments</term> fournis par <term ref="#etantdulan">l'état
+                        <lb xml:id="Pro2_10_L6" n="6" facs="#P10_R6" />
+                        antèrieur du langage</term>.
+                </ab>
+                
+                <ab type="paragrafo" n="5" xml:id="Pro2_1O_Par5">
+                    C'est ainsi que le renouvellement
+                    <lb xml:id="Pro2_10_L7" n="7" facs="#P10_R7" />
+                    <term ref="#analogq"><abbr>analogiq<am>.</am></abbr><expan><ex>ue</ex></expan></term>. qui <choice><orig>d</orig><reg resp="#EF">dans</reg></choice> <choice><orig>1</orig><reg resp="#EF">un</reg></choice> sens est très destructif, <del rend="overstrike">
+                        <gap resp="#LL" cert="medium" reason="illegible" extent="14" atLeast="12" atMost="15" unit="chars"/>
+                    </del>
+                    <lb xml:id="Pro2_10_L8" n="8" facs="#P10_R8" />
+                    <del rend="overstrike">
+                        <gap resp="#LL" cert="medium" reason="illegible" extent="5" atLeast="4" atMost="6" unit="chars"/>
+                    </del> ne fait cependant jamais que continuer
+                    <del rend="overstrike">la chaîne</del>
+                    <del rend="overstrike">
+                        <gap reason="illegible" extent="3" unit="chars"/>
+                    </del>
+                    <lb xml:id="Pro2_10_L9" n="9" facs="#P10_R9" />
+                    <del rend="overstrike">
+                        <gap reason="illegible" extent="2" unit="chars"/>
+                    </del>
+                    <del rend="overstrike">
+                        <emph rend="underline">la chaîne ininterroigue des faits</emph>
+                    </del>
+                    <del rend="overstrike">
+                        <gap reason="illegible" extent="12" atLeast="11" atMost="13" unit="chars"/>
+                    </del>
+                    <lb xml:id="Pro2_10_L10" n="10" facs="#P10_R10" />
+                    <emph rend="underline"><add resp="#FDS" place="margin">sans jamais pouvoir</add> la briser</emph> la <term ref="#chaine">chaîne</term> des <term ref="#elemtra">éléments transmis</term> depuis l'<term ref="#origdeslang"><abbr>orig<am>.</am></abbr><expan><ex>ine</ex></expan> des langues.</term>
+                </ab>
+                
+                <ab type="paragrafo" n="6" xml:id="Pro2_1O_Par6">
+                    <lb xml:id="Pro2_10_L11" n="11" facs="#P10_R11" />
+                    Notons aussi <choice><orig>tt</orig><reg resp="#EF">tout</reg></choice> de suite la raison qui a fait <term ref="#denommer">dénommer</term>
+                    <lb xml:id="Pro2_10_L12" n="12" facs="#P10_R12" />
+                    <term ref="#opdanalog">opération d'<emph rend="underline">analogie</emph>
+                    </term>,<term ref="#ftsdanalog">faits <emph rend="underline">d'analogie</emph></term> 
+                    <choice><orig>ttes</orig><reg resp="#EF">toutes</reg></choice> ces <term ref="#oppsycho"><abbr>opérat<am>.</am></abbr><expan><ex>ions</ex></expan> psychologiques</term>.
+                </ab>
+                
+                <ab type="paragrafo" n="7" xml:id="Pro2_1O_Par7">
+                    <lb xml:id="Pro2_10_L13" n="13" facs="#P10_R13" />
+                    <del rend="overstrike">qui ne sont pas pe</del> le <term ref="#terme">terme</term> a été emprunté à la <term ref="#grammaire">grammaire</term>
+                    <lb xml:id="Pro2_10_L14" n="14" facs="#P10_R14" />
+                    antique des Grecs, qui y<del rend="overstrike"><gap reason="illegible" extent="3" unit="chars"/>
+                    </del> mettait <choice><orig>1</orig><reg resp="#EF">une</reg></choice> autre <term ref="#idee">idée</term> et se placait à <choice><orig>1</orig><reg resp="#EF">un</reg></choice>
+                    <lb xml:id="Pro2_10_L15" n="15" facs="#P10_R15" />
+                    <term ref="#pntdv">point de vue</term> très <abbr>diff<am>.</am></abbr><expan><ex>érent</ex></expan> du nôtre; mais il s'est trouve applicable
+                    <lb xml:id="Pro2_10_L16" n="16" facs="#P10_R16" />
+                    en ce sens que le <term ref="#resultat">résultat</term> de ces <term ref="#operation"><abbr>opér<am>.</am></abbr><expan><ex>ations</ex></expan></term> tend à rétabilir <choice><orig>1</orig><reg resp="#EF">une</reg></choice> <term ref="#analog">ana-<lb break="no"/>
+                        logie</term>
+                    <lb xml:id="Pro2_10_L17" n="17" facs="#P10_R17" />
+                    ou <choice><orig>1</orig><reg resp="#EF">une</reg></choice> <term ref="#symetrie">symétrie</term> entre les <term ref="#formes">formes;</term>
+                </ab>
+                
+                <ab type="paragrafo" n="8" xml:id="Pro2_1O_Par8"> 
+                    ainsi <del rend="overstrike">venirai</del> <mentioned xml:lang="fr" rend="underline">vien<pc>-</pc><lb break="no"/>drai</mentioned>
+                    <lb xml:id="Pro2_10_L18" n="18" facs="#P10_R18" />
+                    n'est pas <term ref="#symetrique">symétrique</term> à <mentioned xml:lang="fr" rend="underline">punirai</mentioned>.
+                </ab>
+               
+                <ab type="paragrafo" n="9" xml:id="Pro2_1O_Par9">
+                    C'est sur une <term ref="#analog" rend="underline">analogie</term>
+                    <lb xml:id="Pro2_10_L19" n="19" facs="#P10_R18" />
+                    que s'effectue le <term ref="#rsnm">raisonnement</term> qui est à la base du <term ref="#phenom"><abbr>phén<am>.</am></abbr><expan><ex>ènomene</ex></expan></term>. 
+                </ab>
+                
+                <ab type="paragrafo" n="10" xml:id="Pro2_1O_Par10">
+                    Plus
+                    <lb xml:id="Pro2_10_L20" n="20" facs="#P10_R20" />
+                    généralement, ce <term ref="#phenom"><abbr>phén<am>.</am></abbr><expan><ex>ènomene</ex></expan></term> représent une <term ref="#assocdeformes" rend="underline">association de formes</term>
+                    <lb xml:id="Pro2_10_L21" n="21" facs="#P10_R21" />                                                                 
+                    dans l'<term ref="#esprit">esprit</term>, qui est dictée par l’<term ref="#assocdiderep"><emph rend="underline">association des idées repré<pc>-</pc></emph></term><lb break="no"/><term ref="#assocdiderep"><emph rend="underline">sentées</emph></term>.
+                    <lb xml:id="Pro2_10_L22" n="22" facs="#P10_R22" />
+                    <del rend="overstrike"><gap reason="illegible"/></del>
+                </ab>
+
+                <ab type="paragrafo" n="11" xml:id="Pro2_1O_Par12">
+                    <lb xml:id="Pro2_10_L23" n="23" facs="#P10_R23" />
+                    L’<term ref="#opdanalog">opération d’analogie</term> est <abbr>+</abbr><expan><ex>plus</ex></expan> vive et <abbr>+</abbr><expan><ex>plus</ex></expan> <del rend="overstrike">féconde</del>
+                    <lb xml:id="Pro2_10_L24" n="24" facs="#P10_R24" />
+                    fertile chez l’enfant, parce que <del rend="overstrike">d'<choice><orig>1</orig><reg resp="#EF">une</reg></choice> part il n'a pas ètè encore</del>
+                    <lb xml:id="Pro2_10_L25" n="25" facs="#P10_R25" />
+                    <mod type="subst">
+                        <del rend="overwritten">l</del>     <!-- Modifica (la) viene sostituta da (sa) cancellando "l", scrivendo sopra "s"-->
+                        <add resp="#FDS" place="superimposed">s</add>
+                    </mod>a
+                    <term ref="#memoire">mémoire</term> n’a pas eu le temps encore d’<term ref="#emmagasiner">emmagasiner</term>
+                    <lb xml:id="Pro2_10_L26" n="26" facs="#P10_R26" />
+                    <choice><orig>1</orig><reg resp="#EF">un</reg></choice> <term ref="#signe">signe</term> tout à fait pour chaque <term ref="#idee">idée</term>, et qu’il se trouve
+                    <lb xml:id="Pro2_10_L27" n="27" facs="#P10_R27" />
+                    bien obligé par <term ref="#conseq">conséquent</term> de 
+                    <mod type="subst">
+                        <del>les</del>
+                        <add resp="#FDS" place="above">
+                            <abbr>confecti</abbr><expan><ex>onner</ex></expan>    <!-- Modifica "les" viene cancellato e sopra viene scritta un'abbreviazione cioè "confectionner" - confecti-->
+                        </add>
+                    </mod>
+                    <del rend="overstrike">faire</del>
+                    lui-même ce <term ref="#signe">signe</term> <del rend="overstrike"><gap resp="#LL" cert="hight" reason="illegible" extent="6" unit="chars"/></del>
+                    <lb xml:id="Pro2_10_L28" n="28" facs="#P10_R28" />
+                    <del rend="overstrike">l'ideé et nouvelle</del> à chaque instant.
+                </ab>
+               
+               <!--NOTA A MARGINE-->
+                <ab type="paragrafo" n="12" xml:id="Pro2_1O_N2">
+                    <!-- lb? -->
+                    Or il le fabriquera <abbr>touj<am>.</am></abbr><expan><ex>ours</ex></expan> d’après le <term ref="#prodanalog">procédé d’<abbr>anal</abbr><expan><ex>ogie</ex></expan></term>.
+                </ab>
+
+                <ab type="paragrafo" n="13" xml:id="Pro2_1O_N3">
+                    Il est possible que <reg resp="#EF">,</reg> si <del rend="overstrike">notre facul</del>
+                    <lb xml:id="Pro2_10_L29" n="29" facs="#P10_R29" />
+                    la puissance
+                    
+                    <mod type="subst">
+                        <del rend="overstrike">nèoquené</del>          <!-- La parola nèoquene viene cancellata e sostituita sopra da un altro termine, illeggibile, che viene a sua volta cancellato, quindi abbiamo una doppia cancellatura-->
+                        <add resp="#FDS" place="above">
+                            <del rend="overstrike"><gap reason="illegible" extent="5"/></del>
+                        </add>
+                    </mod>
+                    <mod type="subst">
+                        <del rend="overstrike">de la memoire</del>   <!-- La frase "de la memoire" viene cancellata e sostituita sopra -->
+                        <add resp="#FDS" place="above">
+                            et la netteté
+                        </add>
+                    </mod>
+                    de notre <term ref="#memoire">mémoire</term> <del rend="overstrike">fus</del>
+                    <lb xml:id="Pro2_10_L30" n="30" facs="#P10_R30" />
+                    étaient <abbr>infin<am>.</am></abbr><expan><ex>iment</ex></expan> <abbr>supér<am>.</am></abbr><expan><ex>ieures</ex></expan> à ce qu’elles sont <choice><orig>est</orig><reg resp="#EF"></reg></choice> les <term ref="#formnouvelles">formations nouvelles</term>
+                    <lb xml:id="Pro2_10_L31" n="31" facs="#P10_R31" />
+                    par <term ref="#analog">analogie</term> fussent réduites à presque rien <choice><orig>d</orig><reg resp="#EF">dans</reg></choice> la <term ref="#viedulang">vie du langage</term>.
+                </ab>
+            </div>
+            
+
+            <!--pagina 11-->
+            <div type="pagina" n="11">
+            <!-- Page beginnng -->
+                <pb n="11" facs="#P11Intera" />
+                <ab type="paragrafo" n="1" xml:id="Pro2_11_Par1">
+                    <lb xml:id="Pro2_11_L1" n="1" facs="#P11_R1" />
+                    Mais en fait ce n’est pas le cas, et <choice><orig>1</orig><reg resp="#EF">une</reg></choice> <term ref="#langue">langue</term> quelconque à <choice><orig>1</orig><reg resp="#EF">un</reg></choice> <term ref="#moment">moment</term>
+                    <lb xml:id="Pro2_11_L2" n="2" facs="#P11_R2" />
+                    quelconque, n’est pas autre chose qu’un vaste enchevêtrement
+                    <lb xml:id="Pro2_11_L3" n="3" facs="#P11_R3" />
+                    de <term ref="#formanalog">formations analogiques</term>, les unes <abbr>absol<am>.</am></abbr><expan><ex>ument</ex></expan> récentes, les autres
+                    <lb xml:id="Pro2_11_L4" n="4" facs="#P11_R4" />
+                    remontant si haut qu’on ne peut que les deviner.
+                </ab>
+               
+                <ab type="paragrafo" n="2" xml:id="Pro2_11_Par2">
+                    <lb xml:id="Pro2_11_L5" n="5" facs="#P11_R5" />
+                    <add resp="#FDS" place="margin"><abbr>Demand</abbr><expan><ex>er</ex></expan> à <choice><orig>1</orig><reg resp="#EF">un</reg></choice> <term ref="#linguiste"><abbr>lingui<am>.</am></abbr><expan><ex>ste</ex></expan></term> <emph rend="underline">de</emph></add> <term ref="#citer">citer</term>
+                    <mod type="subst">
+                        <del rend="overwritten">l</del>     <!-- Modifica (les) viene sostituta da (des) cancellando "l", scrivendo sopra "d"-->
+                        <add resp="#FDS" place="superimposed">d</add>  
+                    </mod>es <term ref="#formanalog">formations analogiques,</term>
+                    <del rend="overstrike">au linguistique</del>, c’est donc <add resp="#FDS" place="above"><del><gap reason="illegible"/></del></add> comme 
+                    <lb xml:id="Pro2_11_L6" n="6" facs="#P11_R6" />
+                    si l’on <del rend="overstrike">citait des</del> demandait à <choice><orig>1</orig><reg resp="#EF">un</reg></choice> <term ref="#mineralogiste">minéralogiste</term> de <term ref="#citer">citer</term> des <term ref="#mineraux">minéraux</term>,
+                    <lb xml:id="Pro2_11_L7" n="7" facs="#P11_R7" />
+                    ou à <choice><orig>1</orig><reg resp="#EF">un</reg></choice> <term ref="#astron"><abbr>astron<am>.</am></abbr><expan><ex>ome</ex></expan></term> de citer quelques <term ref="#etoiles">étoiles</term>, <del rend="overstrike">c'est</del>
+                </ab>
+
+                <ab type="paragrafo" n="3" xml:id="Pro2_11_Par3">
+                    je commence par le dire pour
+                    <lb xml:id="Pro2_11_L8" n="8" facs="#P11_R8" />
+                    qu’il n’y ait aucune méprise sur la <term ref="#valeur">valeur</term> que nous attribuons
+                    <lb xml:id="Pro2_11_L9" n="9" facs="#P11_R9" />
+                    à ces <term ref="#faits">faits</term>:
+                </ab>
+
+                <ab type="paragrafo" n="4" xml:id="Pro2_11_Par4">
+                    ce ne sont pas des <term ref="#faits">faits</term> exceptionnels <add resp="#FDS" place="above">et anecdotiques</add>, ce ne sont pas 
+                    <lb xml:id="Pro2_11_L10" n="10" facs="#P11_R10" />
+                    des <emph rend="underline">curiosités</emph><emph rend="underline"><add resp="#FDS" place="above">ou des <term ref="#anomalies">anomalies</term></add></emph>,
+                </ab>
+
+                <ab type="paragrafo" n="5" xml:id="Pro2_11_Par5">
+                    mais <del rend="overstrike">ce sont</del> c’est la <term ref="#substance">substance</term> la <choice><orig>+</orig><reg resp="#EF">plus</reg></choice> claire du <term ref="#langage">langage</term>
+                    <lb xml:id="Pro2_11_L11" n="11" facs="#P11_R11" />
+                    partout et à <term ref="#tepoque"><choice><orig>tt</orig><reg resp="#EF">toute</reg></choice>  
+                        <mod type="subst">
+                            <del rend="overwritten"><gap reason="illegible"/></del>
+                            <add resp="#FDS" place="superimposed">époque</add>
+                        </mod></term> c’est son <term ref="#histoire">histoire</term> de tous les jours et de tous les <term ref="#temps">temps</term>
+                </ab>
+
+                <ab type="paragrafo" n="6" xml:id="Pro2_11_Par6">
+                    <lb xml:id="Pro2_11_L12" n="12" facs="#P11_R12" />
+                    <add resp="#FDS" place="margin"><del rend="overstrike">je pleure</del></add><mentioned xml:lang="fr"><emph rend="underline">je treuve</emph>, nous <emph rend="underline">trouvons</emph>, <add resp="#FDS" place="above">comme je <emph rend="underline">meurs</emph>, nous mourons</add> </mentioned>
+                    Pourquoi ? il y a une raison excellente
+                    <lb xml:id="Pro2_11_L13" n="13" facs="#P11_R13" /> 
+                    mais <!-- Ellipsis(praticamente dei puntini di sopensione) --><metamark>_ _ _ ... _ .</metamark><supplied resp="#EF" reason="omitted-in-original"><mentioned xml:lang="fr">je treuve</mentioned></supplied>. On a dit <mentioned xml:lang="fr"><emph rend="underline">je lève</emph> <reg resp="#EF">,</reg> nous  <reg resp="#EF">,</reg> <emph rend="underline">lavons</emph></mentioned> et
+                    <lb xml:id="Pro2_11_L14" n="14" facs="#P11_R14" />
+                    nous disons <mentioned xml:lang="fr"><emph rend="underline">je lave</emph>  <reg resp="#EF">,</reg> nous <emph rend="underline">lavons</emph></mentioned>.<metamark>-</metamark>
+                </ab>
+
+                <ab type="paragrafo" n="7" xml:id="Pro2_11_Par7">
+                    <lb xml:id="Pro2_11_L15" n="15" facs="#P11_R15" />
+                    <term ref="#pretforts">Prétérits forts</term> <term ref="#allemands"><lang>allemands</lang></term>  presque <choice><orig>tj.</orig><reg resp="#EF">toujours</reg></choice> <mentioned xml:lang="de">zog, <del rend="overstrike"><gap reason="illegible"/></del> wir zogen,
+                        <lb xml:id="Pro2_11_L16" n="16" facs="#P11_R16" />
+                        <emph rend="underline">lieh</emph><reg resp="#EF">,</reg><emph rend="underline">liehen</emph> <reg resp="#EF">;</reg> <emph rend="underline">band</emph><reg resp="#EF">,</reg> <emph rend="underline">banden</emph> <reg resp="#EF">;</reg> <emph rend="underline">half</emph><reg resp="#EF">,</reg><emph rend="underline">halfen</emph><reg resp="#EF"> ;</reg>
+                        <lb xml:id="Pro2_11_L17" n="17" facs="#P11_R17" />
+                        <emph rend="underline">ward</emph><reg resp="#EF">,</reg><emph rend="underline">wurden</emph>.</mentioned>
+                </ab>
+
+                 <!--NOTA A MARGINE-->
+                <ab type="paragrafo" n="8" xml:id="Pro2_11_N1">
+                    <choice><orig>Tj d</orig><reg resp="#EF">Toujours dans</reg></choice> l'<term ref="#histoire"><abbr>hist<am>.</am></abbr><expan><ex>oire</ex></expan></term> du <term ref="#preterit"><abbr>prét<am>.</am></abbr><expan><ex>érit</ex></expan></term> <orig>1</orig><reg resp="#EF">un</reg> <term ref="#exemple"><abbr>ex<am>.</am></abbr><expan><ex>emple</ex></expan></term>: que même les 
+                    <term ref="#formes">formes</term> les <choice><orig>+</orig><reg resp="#EF">plus</reg></choice> <abbr>famili<am>.</am></abbr><expan><ex>ères</ex></expan> à l’<term ref="#esprit">esprit</term>, <choice><orig>x</orig><reg resp="#EF">ch</reg></choice>ose <abbr>sing<am>.</am></abbr><expan><ex>ulière</ex></expan>, sont sujettes <reg resp="#EF">à l’<term ref="#analogie">analogie</term></reg>
+                </ab>
+
+                <ab type="paragrafo" n="9" xml:id="Pro2_11_Par8">
+                    <lb xml:id="Pro2_11_L18" n="18" facs="#P11_R18" />                                                                                                                  
+                    On a dit <date><add resp="#FDS" place="above">pendant des</add> siècles</date> <mentioned xml:lang="fr" rend="underline">grand</mentioned>,<add resp="#FDS" place="above"> <term ref="fem">fém.</term></add> <mentioned xml:lang="fr">grand<gap quantity="1" unit="chars" reason="illegible"/></mentioned>, contre <mentioned xml:lang="fr" rend="underline">bon</mentioned> <term ref="#fem">fém.</term> <mentioned xml:lang="fr" rend="underline">bone</mentioned>,
+                    <lb xml:id="Pro2_11_L19" n="19" facs="#P11_R19" />
+                    parce que
+                    <lb xml:id="Pro2_11_L20" n="20" facs="#P11_R20" />                                                                                                                                                      
+                    <reg resp="#EF"><mentioned xml:lang="fr">grandis</mentioned> <term ref="#masc">masc.</term> et <term ref="fem">fém.</term>.</reg> Déjà au <date>XIe siècle</date> <mentioned xml:lang="fr" rend="underline">gra<metamark>|</metamark>n<metamark>|</metamark>de</mentioned>.
+                </ab>
+
+                <ab type="paragrafo" n="10" xml:id="Pro2_11_Par9">
+                    <lb xml:id="Pro2_11_L21" n="21" facs="#P11_R21" />
+                    <date>Contemporain</date>: par exemple <del rend="overstrike">j’achète, nous achetons.</del>
+                    <lb xml:id="Pro2_11_L22" n="22" facs="#P11_R22" />
+                    <del rend="overstrike"></del> Une femme ne dit plus <mentioned xml:lang="fr" rend="underline">je me décollette</mentioned>,
+                    <lb xml:id="Pro2_11_L23" n="23" facs="#P11_R23" />
+                    <reg resp="#EF">mais</reg> <mentioned xml:lang="fr" rend="underline">je me <emph rend="underline">décolle</emph></mentioned> <reg resp="#EF">!</reg> <abbr>Magnif<am>.</am></abbr><expan><ex>ique</ex></expan> <term ref="#formadanalog"><abbr>f</abbr><am>.</am><expan><ex>ormation</ex></expan> d' <abbr>anal<am>.</am></abbr><expan><ex>ogie</ex></expan></term>
+                    <del rend="overstike"><gap reason="illegible" /></del>             
+                </ab>
+
+                <ab type="paragrafo" n="11" xml:id="Pro2_11_Par10">
+                    Il est clair, non pas
+                    <lb xml:id="Pro2_11_L24" n="24" facs="#P11_R24" />
+                    qu’il <emph rend="underline">faut</emph> dire, car il ne <emph rend="underline">faut</emph> rien dire; tout ce <del rend="overstrike">qui sa</del>
+                    <lb xml:id="Pro2_11_L25" n="25" facs="#P11_R25" />
+                    qu’on dit à sa raison d’être <metamark>-</metamark> mais il est clair qu’on a dit
+                    <lb xml:id="Pro2_11_L26" n="26" facs="#P11_R26" />
+                    <date>jusqu’à une époque récente</date> <choice><orig>: /</orig><reg resp="#EF"></reg></choice> <reg resp="#EF"><mentioned xml:lang="fr">je me décollette, nous nous décolletons</mentioned></reg>  comme <mentioned xml:lang="fr" rend="underline">j’achète</mentioned> <choice><orig>-</orig><reg resp="#EF">,</reg></choice> <choice><orig>nous</orig><reg resp="#EF">nous achetons</reg></choice> 
+                </ab>
+
+                <ab type="paragrafo" n="12" xml:id="Pro2_11_Par11">
+                    <lb xml:id="Pro2_11_L27" n="27" facs="#P11_R27" />
+                    Très possible qu’on dise <choice><orig>1</orig><reg resp="#EF">une</reg></choice> fois <mentioned xml:lang="fr">j’<emph rend="underline">achte</emph></mentioned> (j’ai déjà entendu <add resp="#FDS" place="below"><mentioned xml:lang="fr">je <emph rend="underline">cachte</emph></mentioned></add> <add resp="#FDS" place="margin"><mentioned xml:lang="fr" rend="underline">récolter</mentioned></add>
+                </ab>
+            </div>
+
+
+
+             <!-- Traduzione -->
+            <div type="traduzione_P10">
+            
+                <ab n="1" corresp="#Pro2_10_Par1" xml:lang="it">
+                    in forme esistenti fornite dalla memoria;
+                </ab>
+
+                <ab n="2" corresp="#Pro2_10_Par2" xml:lang="it">
+                    <hi rend="italic" xml:lang="fr">punirai, punir</hi>, o meglio, se vogliamo, il suffisso <hi rend="italic" xml:lang="fr">–ir</hi>, il suffisso <hi rend="italic" xml:lang="fr">–irai</hi>, e il loro rapporto di significazione.
+                </ab>
+
+                <ab n="3" corresp="#Pro2_10_N1" xml:lang="it">
+                    Senza la presenza di tali elementi, <hi rend="italic" xml:lang="fr">venirai</hi> è semplicemente impossibile.
+                </ab>
+
+                <ab n="4" corresp="#Pro2_10_Par4" xml:lang="it">
+                    Non vi sarà dunque mai creazione <hi rend="italic" xml:lang="fr">ex nihilo</hi>, ma ogni innovazione non sarà che una applicazione nuova di elementi forniti dallo stato anteriore del linguaggio.
+                </ab>
+
+                <ab n="5" corresp="#Pro2_10_Par5" xml:lang="it">
+                    È così che il rinnovamento analogico, che in un senso è molto distruttivo, tuttavia non fa altro se non continuare senza mai poterla spezzare la catena degli elementi trasmessi fin dall’origine delle lingue.
+                </ab>
+
+                <ab n="6" corresp="#Pro2_10_Par6" xml:lang="it">
+                    Notiamo così immediatamente la ragione che ha fatto assegnare il nome di operazioni d’<hi rend="italic">analogia</hi>, fatti d’<hi rend="italic">analogia</hi> a tutte queste operazioni psicologiche.
+                </ab>
+
+                <ab n="7" corresp="#Pro2_10_Par7" xml:lang="it">
+                    Il termine è stato preso dalla grammatica antica dei greci, che vi associava un’altra idea e si poneva da un punto di vista assai differente dal nostro; ma è risultato applicabile nel senso che il risultato di tali operazioni tende a ristabilire un’analogia o una simmetria tra le forme;
+                </ab>
+
+                <ab n="8" corresp="#Pro2_10_Par8" xml:lang="it">
+                    così <hi rend="italic" xml:lang="fr">viendrai</hi> non è simmetrico a <hi rend="italic" xml:lang="fr">punirai</hi>.
+                </ab>
+
+                <ab n="9" corresp="#Pro2_10_Par9" xml:lang="it">
+                    È su una <hi rend="italic">analogia</hi> che viene effettuato il ragionamento che è alla base del fenomeno.
+                </ab>
+
+                <ab n="10" corresp="#Pro2_10_Par10" xml:lang="it">
+                    Più in generale, tale fenomeno rappresenta una <hi rend="italic">associazione di forme</hi> nella mente, che è dettata dall’<hi rend="italic">associazione delle idee rappresentate</hi>.
+                </ab>
+
+                <ab n="11" corresp="#Pro2_10_Par11" xml:lang="it">
+                    L’operazione di analogia è più viva e più fertile nel bambino, perché la sua memoria non ha ancora avuto il tempo di immagazzinare un segno proprio per ogni idea, ed egli si vede obbligato, di conseguenza, a confezionare ogni volta questo segno che sé.
+                </ab>
+
+                <ab n="12" corresp="#Pro2_10_N2" xml:lang="it">
+                    Ora, egli lo fabbricherà sempre attraverso il procedimento di analogia.
+                </ab>
+
+                <ab n="13" corresp="#Pro2_10_N3" xml:lang="it">
+                    È possibile che, se la potenza e la nettezza della nostra memoria fossero infinitamente superiori a ciò che sono, le nuove formazioni per analogia sarebbero ridotte a quasi niente nella vita del linguaggio.
+                </ab>
+            </div>
+            
+            <div type="traduzione_P11">
+                <ab n="1" corresp="#Pro2_11_Par1" xml:lang="it">
+                    Ma di fatto le cose non vanno così, e una lingua qualsiasi a un momento qualsiasi non è altro che un vasto coacervo di formazioni analogiche, alcune assolutamente recenti, altre risalenti così addietro che si può solo ipotizzarle.
+                </ab>
+
+                <ab n="2" corresp="#Pro2_11_Par2" xml:lang="it">
+                    Chiedere a un linguista di citare delle formazioni analogiche, è come se si chiedesse a un mineralogista di citare dei minerali, o a un astronomo di citare qualche stella, e 
+                </ab>
+
+                <ab n="3" corresp="#Pro2_11_Par3" xml:lang="it">
+                    io inizio subito col dire questo perché non vi sia nessuna sottovalutazione del valore che noi attribuiamo a tali fatti:
+                </ab>
+
+                <ab n="4" corresp="#Pro2_11_Par4" xml:lang="it">
+                    non sono fatti eccezionali e aneddotici, non sono <hi rend="italic">curiosità</hi> o anomalie,
+                </ab>
+
+                <ab n="5" corresp="#Pro2_11_Par5" xml:lang="it">
+                    ma è la sostanza più chiara del linguaggio dovunque e in ogni epoca, è la sua storia di ogni giorno e di ogni epoca:
+                </ab>
+
+                <ab n="6" corresp="#Pro2_11_Par6" xml:lang="it">
+                    <hi rend="italic" xml:lang="fr">je treuve, nous trouvons</hi> come <hi rend="italic" xml:lang="fr">je meurs, nous mourons</hi>. Perché? C’è una ragione eccellente, ma [il francese moderno ha invece <hi rend="italic" xml:lang="fr">je trouve</hi>]. Si diceva <hi rend="italic" xml:lang="fr">je lève, nous levons</hi>, e noi diciamo <hi rend="italic" xml:lang="fr">je lave, nous lavons</hi>.
+                </ab>
+
+                <ab n="7" corresp="#Pro2_11_Par7" xml:lang="it">
+                    I preteriti forti tedeschi sono quasi sempre del tipo <hi rend="italic" xml:lang="de">zog, wir zogen; lieh, liehen; band, banden; half, halfen; ward, wurden</hi>.
+                </ab>
+
+                <ab n="8" corresp="#Pro2_11_Par8" xml:lang="it">
+                    Sempre nella storia del preterito un esempio: che anche le forme più familiari alla mente – cosa singolare – sono soggette [all’analogia].
+                </ab>
+
+                <ab n="9" corresp="#Pro2_11_N1" xml:lang="it">
+                    Si è detto per secoli <hi rend="italic" xml:lang="fr">grand</hi>, femm. <hi rend="italic" xml:lang="fr">grand</hi>, contro <hi rend="italic" xml:lang="fr">bon</hi>, femm. <hi rend="italic" xml:lang="fr">bone</hi>, perché [<hi rend="italic" xml:lang="fr">grandis</hi> indicava maschile e femminile.] Già all’XI sec. Si attesta la forma <hi rend="italic" xml:lang="fr">grande</hi>.
+                </ab>
+
+                <ab n="10" corresp="#Pro2_11_Par9" xml:lang="it">
+                    Contemporaneo: per esempio <hi rend="italic" xml:lang="fr">j’achète, nous achetons</hi>. Una donna non dice più <hi rend="italic" xml:lang="fr">je me décollette</hi>, ma <hi rend="italic" xml:lang="fr">je me décolte</hi>! Magnifica formazione analogica!
+                </ab>
+
+                <ab n="11" corresp="#Pro2_11_Par10" xml:lang="it">
+                    È chiaro, non già che <hi rend="italic">bisogna</hi> dire (perché non <hi rend="italic">bisogna</hi> dire proprio nulla; tutto ciò che si dice ha la sua ragion d’essere) – ma è chiaro che si è detto fino a un’epoca recente [<hi rend="italic">je me décollette, nous nous décolletons</hi>] come <hi rend="italic">j’achète</hi>, [<hi rend="italic">nous achetons</hi>].
+                </ab>
+                
+                <ab n="12" corresp="#Pro2_11_Par11" xml:lang="it">
+                    Ben possibile che prima o poi si dica <hi rend="italic" xml:lang="fr">j’achte</hi> (ho già sentito <hi rend="italic" xml:lang="fr">je cachte</hi>) – o <hi rend="italic" xml:lang="fr">récolter</hi>.
+                </ab>
+            </div>
+        </body>
+
+          <back>
+            <!-- Appendice contentente elementi vari -->
+            <div type="appendice">
+                
+                <!-- Terminologia -->
+                <list type="terminologia"><!--list: contiene qualsiasi sequenza di elementi organizzati come un elenco-->
+               
+                   <item>
+                        <term xml:id="formes" xml:lang="fr">Formes</term>
+                        <term ref="#formes" xml:lang="it">Forme</term>
+                        <gloss target="#formes" xml:lang="it" source="https://it.wikipedia.org/wiki/Forma">
+                            La <hi rend="bold">forma</hi> in linguistica analizza il rapporto tra l'espressione comunicativa e la forma linguistica.
+                        </gloss>
+                    </item>
+         
+                     <item>
+                        <term xml:id="memoire" xml:lang="fr">Mémoire</term>
+                        <term ref="#memoire" xml:lang="it">Memoria</term>
+                        <gloss target="#memoire" xml:lang="it" source="https://it.wikipedia.org/wiki/Forma">
+                            La <hi rend="bold">memoria</hi> è una funzione psichica e neurale di assimilazione, attraverso dati sensibili provenienti dall'ambiente esterno mediante fattori percettivi quali gli organi di senso, ed elaborazione di questi dati attraverso la mente e il cervello sotto-forma di ricordi ed esperienze al fine dell'apprendimento, dello sviluppo dell'intelligenza e delle capacità cognitive, psichiche e fisiche dell'individuo.
+                        </gloss>
+                    </item>
+                    
+                    <item>
+                        <term xml:id="suffixe" xml:lang="fr">Suffixe</term>
+                        <term ref="#suffixe" xml:lang="it">Suffisso</term>
+                        <gloss target="#suffixe" xml:lang="it" source="https://it.wikipedia.org/wiki/Suffisso">
+                            In linguistica il <hi rend="bold">suffisso</hi> è un elemento che è posto alla fine di un tema o di una radice per formare una parola. Esso può anche aggiungersi a una parola già compiuta, formando, per derivazione, una parola suffissata (suffissazione).
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="RapdeSignification" xml:lang="fr">Rapport de signification</term>
+                        <term ref="#RapdeSignification" xml:lang="it">Rapporto di significazione</term>
+                        <gloss target="#RapdeSignification" xml:lang="it" source="https://it.wikipedia.org/wiki/Significazione">
+                            Il termine <hi rend="bold">significazione</hi> è un concetto semiotico che indica la relazione tra un significante e un significato. Essa ha a che vedere con la ricchezza di senso tipica di ogni persona, oggetto, elemento del paesaggio naturale. Ogni cosa non ci appare come elemento astratto, bensì è per noi subito sensata, dotata di determinate caratteristiche.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="elem" xml:lang="fr">éléments</term>
+                        <term ref="#elem" xml:lang="it">Elementi</term>
+                        <gloss target="#elem" xml:lang="it" source="https://it.wikipedia.org/wiki/Elemento">
+                            In linguistica l'<hi rend="bold">elemento</hi> è parte di una parola o di una espressione.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="creation" xml:lang="fr">création ex nihilo</term>
+                        <term ref="#creation" xml:lang="it">création ex nihilo</term>
+                        <gloss target="#creation" xml:lang="it" source="https://it.cathopedia.org/wiki/Creatio_ex_nihilo">
+                            è un'espressione della teologia che indica l'atto creativo di Dio, da lui effettuato senza ricorrere a nulla e in piena libertà, senza essere condizionato da nulla di estraneo a Lui, senza alcun presupposto esterno, senza alcun principio preesistente.
+                        </gloss>
+                    </item>
+                    
+                    <item>
+                        <term xml:id="inno" xml:lang="fr">innovation</term>
+                        <term ref="#inno" xml:lang="it">innovazione</term>
+                        <gloss target="#inno" xml:lang="it" source="https://it.wikipedia.org/wiki/Innovazione">
+                            L'<hi rend="bold">innovazione</hi> è la dimensione applicativa di un'invenzione o di una scoperta.
+                            L'<hi rend="bold">innovazione</hi> riguarda un processo o un prodotto che garantisce risultati o benefici maggiori apportando quindi un progresso sociale, anche se a volte non sempre efficaci e migliorativi rispetto a ciò che va ad innovare.
+                            Il cambiamento che porta invece a un peggioramento delle condizioni sociali non è innovazione, ma "regresso". La mancanza di <hi rend="bold">innovazione</hi>, a prescindere da come sia giudicata, invece si può pensare come "tradizionalismo, conservatorismo"
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="etantdulan" xml:lang="fr">état antérieur du langage</term>
+                        <term ref="#etantdulan" xml:lang="it">stato anteriore del linguaggio</term>
+                        <gloss target="#etantdulan" xml:lang="it">
+                            Si riferisce a qualcosa che è già presente nella memoria.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="analogq" xml:lang="fr">analogique</term>
+                        <term ref="#analogq" xml:lang="it">analogico</term>
+                        <gloss target="#analog" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Proprio dell’analogia, che si fonda sull’analogia, ottenuto o formato per analogia.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="chaine" xml:lang="fr">chaîne</term>
+                        <term ref="#chaine" xml:lang="it">catena</term>
+                   
+                        <gloss target="#chaine" xml:lang="it" source="https://it.wiktionary.org/wiki/catena">
+                           Serie di elementi <hi rend="bold">connessi</hi> l'uno con l'altro.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="elemtra" xml:lang="fr">éléments transmis</term>
+                        <term ref="#elemtra" xml:lang="it">elementi trasmessi</term>
+                        <gloss target="#elemtra" xml:lang="it" source="https://it.wikipedia.org/wiki/Proprietà_del_linguaggio_umano">
+                            Ogni lingua è <hi rend="bold">trasmessa</hi> per tradizione all'interno della società come un fattore culturale. Le regole sintattiche, semantiche, morfologiche, fonetiche e lessicali fondanti il patrimonio lessicale di ogni lingua passano, da generazione in generazione, per insegnamento e apprendimento.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="origdeslang" xml:lang="fr">origine des langues</term>
+                        <term ref="#origdeslang" xml:lang="it">origine delle lingue</term>
+                        <gloss target="#origdeslang" xml:lang="it" source="https://it.wikipedia.org/wiki/Origine_del_linguaggio_umano">
+                            L'<hi rend="bold">origine del linguaggio umano</hi> è un argomento che ha attratto una considerevole attenzione nel corso della storia dell'uomo. L'uso della lingua è uno dei tratti più cospicui che distingue l'Homo sapiens da altre specie. 
+                            A differenza della scrittura, l'oralità non lascia tracce evidenti della sua natura o della sua stessa esistenza, perciò, i linguisti devono ricorrere a metodi indiretti per decifrare le sue origini.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="denommer" xml:lang="fr">dénommer</term>
+                        <term ref="#denommer" xml:lang="it">assegnare</term>
+                        <gloss target="#denommer" xml:lang="it" source="https://www.treccani.it/vocabolario/assegnare/">
+                            Attribuire, dare, conferire.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="opdanalog" xml:lang="fr">opération d’analogie</term>
+                        <term ref="#opdanalog" xml:lang="it">operazioni d’analogia</term>
+                        <gloss target="#opdanalog" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="ftsdanalog" xml:lang="fr">faits d’analogie</term>
+                        <term ref="#ftsdanalog" xml:lang="it">fatti d’analogia</term>
+                        <gloss target="#ftsdanalog" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="oppsycho" xml:lang="fr">opérations psychologiques</term>
+                        <term ref="#oppsycho" xml:lang="it">operazioni psicologiche</term>
+
+                        <gloss target="#oppsycho" xml:lang="it">
+                           Si riferisce a quelle operazioni che hanno come fattore comune l'analogia.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="terme" xml:lang="fr">terme</term>
+                        <term ref="#terme" xml:lang="it">termine</term>
+                        <gloss target="#terme" xml:lang="it" source="https://www.treccani.it/vocabolario/termine/">
+                            Parola o locuzione propria di un ambito definito (t. regionale, dialettale), o di una particolare disciplina (è un t. scientifico, filosofico).
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="grammaire" xml:lang="fr">grammaire</term>
+                        <term ref="#grammaire" xml:lang="it">grammatica</term>
+                        <gloss target="#grammaire" xml:lang="it" source="https://it.wikipedia.org/wiki/Grammatica">
+                            La <hi rend="bold">grammatica</hi> è quel complesso di regole necessarie alla costruzione di frasi, sintagmi e parole di una determinata lingua. Il termine si riferisce anche allo studio di dette regole.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="idee" xml:lang="fr">idée</term>
+                        <term ref="#idee" xml:lang="it">idee</term>
+                        <gloss target="#idee" xml:lang="it" source="https://it.wikipedia.org/wiki/Idea">
+                            <hi rend="bold">Idea</hi> è un termine usato sin dagli albori della filosofia, indicante in origine un'essenza primordiale e sostanziale, ma che oggi ha assunto nel linguaggio comune un significato più ristretto, riferibile in genere ad una rappresentazione o un "disegno" della mente.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="conseq" xml:lang="fr">conséquent</term>
+                        <term ref="#conseq" xml:lang="it">conseguenza</term>
+                        <gloss target="#conseq" xml:lang="it" source="https://www.treccani.it/vocabolario/conseguenza_%28Sinonimi-e-Contrari%29/">
+                           Conclusione che si deduce logicamente da una premessa.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="pntdv" xml:lang="fr">point de vue</term>
+                        <term ref="#pntdv" xml:lang="it">punto di vista</term>
+                        <gloss target="#pntdv" xml:lang="it" source="https://it.wiktionary.org/wiki/punto_di_vista">
+                            In senso figurato, si tratta dell'<hi rend="bold">opinione personale</hi>.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="resultat" xml:lang="fr">résultat</term>
+                        <term ref="#resultat" xml:lang="it">risultato</term>
+                        <gloss target="#resultat" xml:lang="it" source="https://www.treccani.it/vocabolario/risultato/">
+                            Ciò che <hi rend="bold">risulta</hi> come esito definitivo e conclusivo di un’azione, un’attività o un’operazione.
+                        </gloss>
+                    </item>
+                    
+                    <item>
+                        <term xml:id="operation" xml:lang="fr">opération</term>
+                        <term ref="#operation" xml:lang="it">operazione</term>
+                        <gloss target="#operation" xml:lang="it" source="https://www.treccani.it/vocabolario/operazione/">
+                            L’atto dell’operare, l’attività di chi <hi rend="bold">opera</hi>, di chi compie un lavoro o un’azione.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="analog" xml:lang="fr">analogie</term>
+                        <term ref="#analog" xml:lang="it">analogia</term>
+                        <gloss target="#analog" xml:lang="it" source="https://www.treccani.it/vocabolario/analogia/">
+                            Rapporto di somiglianza tra due oggetti, tale che dall’eguaglianza o somiglianza constatata tra alcuni elementi di tali oggetti si possa dedurre l’eguaglianza o somiglianza anche di tutti gli altri loro elementi.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="symetrie" xml:lang="fr">symétrie</term>
+                        <term ref="#symetrie" xml:lang="it">simmetria</term>
+                        <gloss target="#symetrie" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                            Ordinata corrispondenza di forma o di posizione fra le parti di un oggetto o fra gli elementi d'un assetto.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="symétrique" xml:lang="fr">symétrique</term>
+                        <term ref="#symétrique" xml:lang="it">simmetrico</term>
+                        <gloss target="#symétrique" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                            Ordinata corrispondenza di forma o di posizione fra le parti di un oggetto o fra gli elementi d'un assetto.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="rsnm" xml:lang="fr">raisonnement</term>
+                        <term ref="#rsnm" xml:lang="it">ragionamento</term>
+                        <gloss target="#rsnm" xml:lang="it" source="https://www.treccani.it/vocabolario/ragionamento/">
+                            è il processo cognitivo che, partendo da determinate premesse, porta a una conclusione, facendo uso di procedimenti logici, tipico delle argomentazioni. I principali tipi di ragionamento, secondo ottiche diverse, possono essere l'inferenza, l'induzione, la deduzione, l'abduzione e il ragionamento per assurdo.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="phenom" xml:lang="fr">phénomène</term>
+                        <term ref="#phenom" xml:lang="it">fenomeno</term>
+                        <gloss target="#phenom" xml:lang="it" source="https://www.treccani.it/vocabolario/fenomeno/">
+                            Il termine <hi rend="bold">fenomeno</hi> (dal greco antico: fainòmenon, «che appare») è riferito a tutto quello che si presenta come oggettivamente costituito all'osservatore che quindi lo può cogliere attraverso l'apparato sensibile.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="assocdeformes" xml:lang="fr">association de formes</term>
+                        <term ref="#assocdeformes" xml:lang="it">associazione di forme</term>
+                        <gloss target="#assocdeformes" xml:lang="it" source="https://www.lumsa.it/sites/default/files/UTENTI/u1239/Saussure_Nascita%20e%20principi%20di%20semiotica%20strutturale.pdf">
+                            Per De Saussure l’associazione tra significante e significato è fondata sull’arbitrarietà. 
+                            Per cui non ci sarebbe alcuna motivazione naturale a fondare il legame 
+                            segnico, ma solo una ragione convenzionale.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="esprit" xml:lang="fr">esprit</term>
+                        <term ref="#esprit" xml:lang="it">mente</term>
+                        <gloss target="#esprit" xml:lang="it" source="https://it.wikipedia.org/wiki/Mente">
+                            Il termine <hi rend="bold">mente</hi> è comunemente utilizzato per descrivere l'insieme delle funzioni superiori del cervello e, in particolare, quelle di cui si può avere soggettivamente coscienza in diverso grado, quali la sensazione, il pensiero, l'intuizione, la ragione, la memoria, la volontà.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="assocdiderep" xml:lang="fr">association des idées représentées</term>
+                        <term ref="#assocdiderep" xml:lang="it">associazione di idee rappresentate</term>
+                        <gloss target="#assocdiderep" xml:lang="it" source="https://www.lumsa.it/sites/default/files/UTENTI/u1239/Saussure_Nascita%20e%20principi%20di%20semiotica%20strutturale.pdf">
+                            Per De Saussure l’associazione tra significante e significato è fondata sull’arbitrarietà. 
+                            Per cui non ci sarebbe alcuna motivazione naturale a fondare il legame 
+                            segnico, ma solo una ragione convenzionale.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="emmagasiner" xml:lang="fr">emmagasiner</term>
+                        <term ref="#emmagasiner" xml:lang="it">immagazzinare</term>
+                        <gloss target="#emmagasiner" xml:lang="it" source="https://it.wikipedia.org/wiki/Immagazzinare">
+                            Accogliere nel proprio ambito mentale, accumulare nella memoria.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="signe" xml:lang="fr">signe</term>
+                        <term ref="#signe" xml:lang="it">segno</term>
+                        <gloss target="#signe" xml:lang="it" source="https://it.wikipedia.org/wiki/segno">
+                            Rappresentazione, concreta e convenzionale, di un oggetto astratto: tali le note e gli accidenti musicali, i numeri, le lettere dell'alfabeto, ecc.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="pdanalogie" xml:lang="fr">procédé d’analogie</term>
+                        <term ref="#pdanalogie" xml:lang="it">procedimento d'analogia</term>
+                        <gloss target="#pdanalogie" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="formnouvelles" xml:lang="fr">formations nouvelles</term>
+                        <term ref="#formnouvelles" xml:lang="it">nuove formazioni</term>
+                        <gloss target="#formnouvelles" xml:lang="it" source="https://www.treccani.it/vocabolario/formazione/#:~:text=formatio%20%2Donis%5D.,pi%C3%B9%20con%20funzioni%20di%20rappresentanza.">
+                           L’atto, il modo di formare.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="viedulang" xml:lang="fr">vie du langage</term>
+                        <term ref="#viedulang" xml:lang="it">vita del linguaggio</term>
+                        <gloss target="#viedulang" xml:lang="it" source="https://it.wikipedia.org/wiki/Origine_del_linguaggio_umano">
+                            L'<hi rend="bold">origine del linguaggio umano</hi> è un argomento che ha attratto una considerevole attenzione nel corso della storia dell'uomo. L'uso della lingua è uno dei tratti più cospicui che distingue l'Homo sapiens da altre specie. 
+                            A differenza della scrittura, l'oralità non lascia tracce evidenti della sua natura o della sua stessa esistenza, perciò, i linguisti devono ricorrere a metodi indiretti per decifrare le sue origini.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="langue" xml:lang="fr">langue</term>
+                        <term ref="#langue" xml:lang="it">lingua</term>
+                        <gloss target="#langue" xml:lang="it" source="https://it.wikipedia.org/wiki/Origine_del_linguaggio_umano">
+                            L'<hi rend="bold">origine del linguaggio umano</hi> è un argomento che ha attratto una considerevole attenzione nel corso della storia dell'uomo. L'uso della lingua è uno dei tratti più cospicui che distingue l'Homo sapiens da altre specie. 
+                            A differenza della scrittura, l'oralità non lascia tracce evidenti della sua natura o della sua stessa esistenza, perciò, i linguisti devono ricorrere a metodi indiretti per decifrare le sue origini.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="moment" xml:lang="fr">moment</term>
+                        <term ref="#moment" xml:lang="it">momento</term>
+                        <gloss target="#moment" xml:lang="it" source="https://www.treccani.it/vocabolario/momento">
+                            Minima frazione di tempo, tempo brevissimo. 
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="formanalog" xml:lang="fr">formations analogiques</term>
+                        <term ref="#formanalog" xml:lang="it">formazioni analogiche</term>
+                        <gloss target="#formanalog" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="linguiste" xml:lang="fr">linguiste</term>
+                        <term ref="#linguiste" xml:lang="it">linguista</term>
+                        <gloss target="#linguiste" xml:lang="it" source="https://www.treccani.it/vocabolario/linguista/">
+                            Chi si dedica allo studio delle lingue (o anche soltanto, o in modo specifico, della propria lingua), soprattutto da un punto di vista teorico, sistematico e storico; studioso di linguistica.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="citer" xml:lang="fr">citer</term>
+                        <term ref="#citer" xml:lang="it">citare</term>
+                        <gloss target="#citer" xml:lang="it" source="https://www.treccani.it/vocabolario/citare/">
+                            Allegare, riportare parole di persone o di testi autorevoli, ricordare fatti o episodî a conferma di quanto si sostiene; riferire passi di opere, sia per esemplificazione, sia anche per semplice diletto estetico.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="mineraux" xml:lang="fr">minéraux</term>
+                        <term ref="#mineraux" xml:lang="it">minerale</term>
+                        <gloss target="#mineraux" xml:lang="it" source="https://it.wikipedia.org/wiki/Minerale">
+                            I <hi rend="bold">minerali</hi> (dal latino medievale minerale, derivato del francese antico minière, "miniera") sono corpi inorganici e naturali, caratterizzati da un elevato ordinamento a scala atomica ed una composizione chimica ben definita (ma non fissa) o variabile in un campo ristretto; essi costituiscono la crosta terrestre e altri corpi celesti. Sono tutti solidi.
+                        </gloss>
+                    </item>
+                    
+                      <item>
+                        <term xml:id="etoiles" xml:lang="fr">étoiles</term>
+                        <term ref="#etoiles" xml:lang="it">stelle</term>
+                        <gloss target="#etoiles" xml:lang="it" source="https://it.wikipedia.org/wiki/Stella">
+                            Una <hi rend="bold">stella</hi> è un corpo celeste che brilla di luce propria. Si tratta di uno sferoide di plasma che attraverso processi di fusione nucleare nel proprio nucleo genera energia, irradiata nello spazio sotto forma di radiazione elettromagnetica (luminosità), flusso di particelle elementari (vento stellare) e neutrini.
+                        </gloss>
+                    </item>
+                    
+                    <item>
+                        <term xml:id="astron" xml:lang="fr">astronome</term>
+                        <term ref="#astron" xml:lang="it">astronomo</term>
+                        <gloss target="#astron" xml:lang="it" source="https://it.wikipedia.org/wiki/Astronomo">
+                            Un astronomo è uno scienziato che si occupa dello studio dei corpi e dei fenomeni esterni all'atmosfera terrestre. Per le sue ricerche egli si avvale principalmente della matematica e della fisica, ma anche di altre discipline a seconda del suo campo specifico di studi.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="valeur" xml:lang="fr">valeur</term>
+                        <term ref="#valeur" xml:lang="it">valore</term>
+                        <gloss target="#valeur" xml:lang="it" source="https://www.treccani.it/vocabolario/valore/">
+                            Importanza che una cosa, materiale o astratta, ha, sia oggettivamente in sé stessa, sia soggettivamente nel giudizio dei singoli
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="faits" xml:lang="fr">faits</term>
+                        <term ref="#faits" xml:lang="it">fatti</term>
+                        <gloss target="#faits" xml:lang="it" source="https://www.treccani.it/vocabolario/fatto1/">
+                            Portato a termine, compiuto.
+                        </gloss>
+                    </item>
+                    
+                    <item>
+                        <term xml:id="anomalies" xml:lang="fr">anomalies</term>
+                        <term ref="#anomalies" xml:lang="it">anomalie</term>
+                        <gloss target="#anomalies" xml:lang="it" source="https://www.treccani.it/vocabolario/anomalia">
+                            Irregolarità, difformità dalla regola generale, o da una struttura, da un tipo che si considera come normale.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="substance" xml:lang="fr">substance</term>
+                        <term ref="#substance" xml:lang="it">sostanza</term>
+                        <gloss target="#substance" xml:lang="it" source="https://www.treccani.it/vocabolario/sostanza">
+                            Termine che, fin dalle origini del pensiero filosofico, designa genericamente ciò che permane al di sotto delle mutevoli apparenze.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="langage" xml:lang="fr">langage</term>
+                        <term ref="#langage" xml:lang="it">linguaggio</term>
+                        <gloss target="#langage" xml:lang="it" source="https://it.wikipedia.org/wiki/Linguaggio">
+                            Il linguaggio è una forma di comunicazione tra due o più individui attraverso un complesso determinato di suoni, gesti, simboli e movimenti dotati di significato, che definiscono una lingua comune ad uno specifico ambiente di interazione.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="mineralogiste" xml:lang="fr">mineralogiste</term>
+                        <term ref="#mineralogiste" xml:lang="it">mineralogista</term>
+                        <gloss target="#mineralogiste" xml:lang="it" source="https://it.wikipedia.org/wiki/Mineralogia">
+                            La mineralogia è la scienza che studia la composizione chimica, la struttura cristallina e le caratteristiche fisiche (ad esempio durezza, magnetismo e proprietà ottiche) dei minerali, nonché la loro genesi, trasformazione e utilizzo da parte dell'uomo.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="tepoque" xml:lang="fr">toute époque</term>
+                        <term ref="#tepoque" xml:lang="it">ogni epoca</term>
+                        <gloss target="#tepoque" xml:lang="it" source="https://www.treccani.it/vocabolario/epoca/">
+                            Punto fisso nella storia, segnato da qualche avvenimento memorabile, da cui si comincia a contare una nuova serie di anni; o spazio di tempo compreso fra due di tali punti o momenti della storia.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="histoire" xml:lang="fr">histoire</term>
+                        <term ref="#histoire" xml:lang="it">storia</term>
+                        <gloss target="#histoire" xml:lang="it" source="https://www.treccani.it/vocabolario/storia/">
+                            Esposizione ordinata di fatti e avvenimenti umani del passato, quali risultano da un’indagine critica volta ad accertare sia la verità di essi, sia le connessioni reciproche per cui è lecito riconoscere in essi un’unità di sviluppo.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="temps" xml:lang="fr">temps</term>
+                        <term ref="#temps" xml:lang="it">epoca</term>
+                        <gloss target="#temps" xml:lang="it" source="https://www.treccani.it/vocabolario/epoca/">
+                            Punto fisso nella storia, segnato da qualche avvenimento memorabile, da cui si comincia a contare una nuova serie di anni; o spazio di tempo compreso fra due di tali punti o momenti della storia.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="pretforts" xml:lang="fr">Prétérits forts</term>
+                        <term ref="#pretforts" xml:lang="it">preteriti forti</term>
+                        <gloss target="#pretforts" xml:lang="it">
+                            Verbi forti tedeschi.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="preterit" xml:lang="fr">prétérit</term>
+                        <term ref="#preterit" xml:lang="it">preterito</term>
+                        <gloss target="#preterit" xml:lang="it">
+                            Verbo, parola.
+                        </gloss>
+                    </item>
+                    
+                    <item>
+                        <term xml:id="exemple" xml:lang="fr">exemple</term>
+                        <term ref="#exemple" xml:lang="it">esempio</term>
+                        <gloss target="#exemple" xml:lang="it" source="https://www.treccani.it/vocabolario/esempio/">
+                            Fatto particolare che serve a illustrare un’affermazione generica, a dare evidenza a un principio teorico.
+                        </gloss>
+                    </item>
+                    
+                    <item>
+                        <term xml:id="fem" xml:lang="fr">fém.</term>
+                        <term ref="#fem" xml:lang="it">fem.</term>
+                        <gloss target="#fem" xml:lang="it">
+                            Femminile
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="masc" xml:lang="fr">masc.</term>
+                        <term ref="#masc" xml:lang="it">masc.</term>
+                        <gloss target="#masc" xml:lang="it">
+                            Maschile
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="formadanalog" xml:lang="fr">formation d’analogie</term>
+                        <term ref="#formadanalog" xml:lang="it">formazione analogica</term>
+                        <gloss target="#formadanalog" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Proprio dell’analogia, che si fonda sull’analogia, ottenuto o formato per analogia.
+                        </gloss>
+                    </item>
+                    
+                     <item>
+                        <term xml:id="allemands" xml:lang="fr">allemands</term>
+                        <term ref="#allemands" xml:lang="it">lingua tedesca</term>
+                        <gloss target="#allemands" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Il <hi rend="bold">tedesco</hi> è una lingua indoeuropea appartenente al ramo occidentale delle lingue germaniche.
+                        </gloss>
+                    </item>
+                </list>
+                
+                <listPerson>
+                    <person xml:id="FDS">
+                        <persName >
+                            <ref target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure" />
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="26-11-1857">26 novembre 1857</date>
+                            <placeName ref="#ginevra">
+                                <settlement>Ginevra</settlement>
+                                <country>Svizzera</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="22-02-1913">22 febbraio 1913</date>
+                            <placeName>
+                                <settlement>Vufflens-le-Château</settlement>
+                                <country>Svizzera</country>
+                            </placeName>
+                        </death>
+                    </person>
+                </listPerson>
+                
+                <!-- Riferimenti bibiografici -->
+                <listBibl>                    
+                    <bibl xml:id="ACLib" xml:lang="fr">
+                        <author ref="#AC">
+                            <forename>Alessandro</forename>
+                            <surname>Chidichimo</surname>
+                        </author>
+                        <title>Cahiers <persName ref="#FDS">Ferdinand de Saussure</persName></title>
+                        <pubPlace ref="#ginevra"><placeName ref="#ginevra">Ginevra</placeName></pubPlace>
+                        <publisher>Librairie Droz</publisher>
+                        <date when="2009">2009</date>
+                    </bibl>
+                    
+                    <bibl xml:id="EFLib">
+                        <author xml:id="EF">
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </author>
+                        <title type="main" level="m">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <pubPlace><placeName ref="#acireale">Acireale</placeName></pubPlace>
+                        <publisher>Bonanno Editore</publisher>
+                        <date when="2006">2006</date>
+                        <biblScope unit="volume">1</biblScope>
+                    </bibl>
+                    
+                    <bibl xml:id="TDMLib">
+                        <author ref="#FDS">
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </author>
+                        <author xml:id="TDM">
+                            <forename>Tullio</forename>
+                            <surname>De Mauro</surname>
+                        </author>
+                        <title>Corso di linguistica generale, introduzione, traduzione e commento di Tullio De Mauro</title>
+                        <pubPlace><placeName ref="#roma">Roma</placeName></pubPlace>
+                        <date when="1976">1976</date>
+                        <publisher>Editori Laterza</publisher>
+                    </bibl>
+                </listBibl>
+                
+                <listPlace>
+                    <place xml:id="ginevra">
+                        <placeName ref="https://it.wikipedia.org/wiki/Ginevra">Ginevra</placeName>
+                        <settlement>Ginevra</settlement>
+                        <country>Svizzera</country>
+                    </place>
+                    <place xml:id="acireale">
+                        <placeName ref="https://it.wikipedia.org/wiki/Acireale">Acireale</placeName>
+                        <settlement type="region">Sicilia</settlement>
+                        <country>Italia</country>
+                    </place>
+                    <place xml:id="roma">
+                        <placeName ref="https://it.wikipedia.org/wiki/Roma">Roma</placeName>
+                        <settlement type="region">Lazio</settlement>
+                        <country>Italia</country>
+                    </place>
+                </listPlace>
+            </div>
+        </back>
+    </text>
+</TEI>
+        
